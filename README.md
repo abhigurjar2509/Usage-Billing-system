@@ -2,10 +2,10 @@
 Usage Billing System is a lightweight REST API built using Java's built-in HttpServer
 It allows you to:
 
-Manage gym members
-Track equipment usage
-Deduct free hours
-Calculate billing amount
+Manage gym members, 
+Track equipment usage, 
+Deduct free hours, 
+Calculate billing amount, 
 Generate JSON response
 
 Data Structures & Algorithms (DSA) Used
@@ -18,18 +18,18 @@ static Map<Integer, Equipment> equipments;
 static Map<Integer, Usage> usages;
 
 Why HashMap?
-Provides O(1) average time complexity
-Fast data retrieval using IDs
+Provides O(1) average time complexity,
+Fast data retrieval using IDs,
 Efficient in-memory storage
 
 Billing Algorithm (Logic-Based Calculation)
 
 The billing logic:
 
-Calculate total hours used
-Deduct available free hours
-Charge remaining hours based on rate
-Generate final payable amount
+Calculate total hours used, 
+Deduct available free hours, 
+Charge remaining hours based on rate, 
+Generate final payable amount.
 
 How to Run
 Step 1: Compile
