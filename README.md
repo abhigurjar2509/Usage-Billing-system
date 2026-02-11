@@ -9,7 +9,7 @@ Calculate billing amount
 Generate JSON response
 
 Data Structures & Algorithms (DSA) Used
-1️⃣ HashMap (Core Data Structure)
+HashMap (Core Data Structure)
 
 The system uses three HashMap objects:
 
